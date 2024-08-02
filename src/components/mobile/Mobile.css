@@ -1,0 +1,41 @@
+.mobile {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.mobile__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mobile__content {
+    max-width: 504px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.mobile__title {
+    font-family: Outfit;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #241415;
+}
+
+.mobile__description {
+    margin-top: 16px;
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #241415;
+    opacity: 0.6;
+}
+
+.mobile__links {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}

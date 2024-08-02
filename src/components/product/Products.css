@@ -1,0 +1,32 @@
+.product {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+.product__title {
+    font-family: Outfit;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    color: #241415;
+}
+
+.product__description {
+    margin-top: 16px;
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #241415;
+    opacity: 0.6;
+}
+
+.product__cards {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}

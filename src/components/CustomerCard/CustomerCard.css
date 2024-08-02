@@ -1,0 +1,52 @@
+.customer__card {
+    max-width: 360px;
+    padding: 30px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.stars {
+    width: 100px;
+    height: 20px;
+}
+
+.customer__card__description {
+    margin-top: 26px;
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #241415;
+}
+
+.customer__card__user {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user__content {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.customer__name {
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #241415;
+}
+
+.customer__job {
+    font-family: Outfit;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #241415;
+}
